@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input_nome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome" />
+    
+    <Button 
+        android:id="@+id/btn_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Contato"/>
+    
+    <EditText 
+        android:id="@+id/input_novo_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Novo nome"/>
+    
+    <EditText 
+        android:id="@+id/input_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID do contato"/>
+    
+    <Button 
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"/>
+</LinearLayout>
